@@ -21,3 +21,12 @@ a {
 * {
   box-sizing: border-box;
 }
+.star{
+  color: #24A1FD;
+}
+.HelpingIcon{
+  font-size: 40px;
+  color: #EB3349;
+  /* margin: auto; */
+  /* margin: 50%; */
+}

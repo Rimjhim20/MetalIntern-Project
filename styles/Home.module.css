@@ -1,116 +1,441 @@
-.container {
-  padding: 0 2rem;
+.home{
+    display: flex;
+    margin-top: 3%;
+    padding: auto;
+}
+.HomeText{
+    text-align: center;
+    align-items: center;
+}
+.HomeText{
+    margin-left: 10rem;
+}
+.HomeLeft{
+    margin-right: 20%;
+}
+.HomeImage{
+    margin-left: 0%;
+}
+.HomeRight{
+    background-color: rgba(36, 161, 253, 0.05);;
+    width: 20%;
+    height: 60%;
+    padding: 3%;
+    margin-left: 15%;
+}
+.Image{
+    width: 150%;
+}
+.btnHomeRight{
+    width: 232px;
+    height: 66px;
+    border-radius: 61px;
+    text-align: center;
+    border: none;
+    background-color: #24A1FD;
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Recommendation{
+    margin: auto;
+    display: block;
+    height: 196px;
+    width: 336px;
+    border-radius: 14px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.HomeRecommendation{
+    margin-bottom: 10%;
+}
+.HomeRecommendation, .Recommendation_inside{
+    display: flex;
+}
+.HomeRecommendation{
+    margin-top: 5%;
+}
+.RecommendationImage{
+    width: 200px;
+}
+.RecommmendationText{
+    padding: 10px;
+    line-height: 1;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+
+.Title{
+    /* position: absolute; */
+    /* top: 8px; */
+    /* left: 16px; */
+    /* margin: 20px 65% 20px auto; */
+    margin-left: 5%;
+}
+.TitleHeading{
+    color: #24A1FD;
+    font-weight:bold;
+    font-size: 60px;
+    /* margin-right: 65%;
+    margin-left: 0%; */
+}
+
+/* --------------------- Why Choose Us ----------------------  */
+.whyChooseUs{
+    position: relative;
+    margin-bottom: 10%;
+}
+.ChooseUs{
+  margin-top: 10px;
+  margin-bottom: 10px;
+    margin: auto;
+    /* display: block; */
+    height: 400px;
+    width: 390px;
+    border-radius: 14px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.HomeChooseUs, .ChooseUs_inside{
+    display: flex;
+}
+.ChooseUs_inside{
+    margin:auto;
+}
+.ChooseUsImage{
+    width: 250px;
+}
+
+
+/* ------------------------------- About Us ---------------------------------- */
+.AboutUs{
+    position: relative;
+    margin-bottom: 10%;
+}
+.AboutUsSection{
+    margin: auto;
+    margin-bottom: 40px;
+    
+    /* display: block; */
+    height: 300px;
+    width: 90%;
+    border-radius: 14px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.HomeAbout{
+    display: flex;
+    flex-flow: column;
+}
+.AboutUs_inside{
+    display: flex;
+    /* flex-flow: column; */
+}
+.AboutUsHeading{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.HomeAboutUs{
+    margin-top: 5%;
+}
+.AboutUsImage{
+    width: 311px;
+}
+.AboutUsInfo{
+    margin: auto;
+}
+.AboutUsInfo{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+
+/*----------------------------------- How It works --------------------------- */
+.HowItWorks{
+    position: relative;
+    margin-bottom: 10%;
+}
+.Work{
+    margin: auto;
+    display: block;
+    height: 400px;
+    width: 390px;
+    border-radius: 14px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.HomeWork{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Work_inside{
+    /* display: flex; */
+    margin-top: 20px;
+}
+.workinsidehead{
+    margin: auto 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.WorkImage{
+    width: 250px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+
+/*-------------------------------- Featured Products --------------------- */
+.FeatureProduct{
+    position: relative;
+    margin-bottom: 10%;
+}
+.ProductSection{
+    margin: auto;
+    display: block;
+    height: 456px;
+    width: 400px;
+    border-radius: 14px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.HomeProduct{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product_inside{
+    /* display: flex; */
+    margin-top: 20px;
+    text-align: left;
+}
+.workinsidehead{
+    margin: auto 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.ProductImage{
+    width: 400px;
+}
+.Product{
+    position: relative;
+}
+.wish_top_right{
+    color: rgba(132, 131, 142, 0.1);;
+    border: 1px solid rgba(132, 131, 142, 0.1);;
+    width: 25px;
+    height: auto;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.wish:hover{
+    color: red;
+}
+.star{
+  color: #24A1FD;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.bottom_right_detail{
+    background-color: rgba(132, 131, 142, 0.1);
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.Product_detail{
+    padding: 10px 10px;
+}
+.Product_Title{
+    color: #24A1FD;
+}
+.Product_Quantity{
+    color: #08376B;
+    font-size: x-large;
+    margin-top: 10px;
+}
+.Product_Price{
+    color: #18C749;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Product_Head{
+    display: flex;
+    margin-left: 5%;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+
+
+
+
+/* --------------------Section Search------------------------  */
+.SectionSearch{
+    margin-left: 5%;
+    width: 260px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border: 1px solid #24A1FD ;
+    color: #24A1FD;
+    border-radius: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.SectionSearch:hover{
+    background-color: #24A1FD;
+    color: white;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+
+
+
+
+
+/*-------------------------- Browse By Category------------------------  */
+.BrowseByCategory{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10%;
+}
+.CategorySection{
+    margin: 2%;
+    display: block;
+    height: 210px;
+    width: 210px;
+    border-radius: 150px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    /* margin: 5% 2%; */
+}
+.HomeCategory{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 2%;
+}
+.Category_inside{
+    /* display: flex; */
+    /* flex-flow: column; */
+    text-align: center;
+}
+.CategoryName{
+    text-decoration: none;
+    color: #08376B;
+    margin: auto;
+}
+.CategoryImage{
+    margin-top: 30px;
+    width: 150px;
+    height: 120px;
+    /* border-radius: 150px; */
+}
+.CategoryHead{
+    display: flex;
+    margin-left: 5%;
+
 }
 
-.title,
-.description {
-  text-align: center;
+
+/* ----------------------Testitmonials--------------------  */
+.Testimonial{
+    position: relative;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.HomeTestimonial{
+    display: flex;
+    flex-wrap: wrap;
+}
+.TestimonialSection{
+    margin: auto;
+    /* display: block; */
+    height: 292px;
+    width: 252px;
+    border-radius: 14px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.Testimonialimg{
+    width: 172px;
+    height: 120px;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+.TestimonialText{
+    padding: 10px;
+    line-height: 1;
+}
+.Tname{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+
+
+/* ----------------------Helping Customer--------------------  */
+.HelpingCustomer{
+    position: relative;
+    margin-bottom: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.HomeHelpingCustomer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.HelpingCustomerSection{
+    margin: auto;
+    height: 378px;
+    width: 640px;
+    border-radius: 14px;
+    border: 1px solid #08376B;
+}
+.HelpingCustomerInside1{
+    padding: 67px;
+}
+.HelpingNote{
+    font-size: 24px;
+}
+.HelpingCall, .HelpingFaq{
+    display: flex;
+    justify-content: start;
+  padding: 20px;
+  /* margin-left: 12%; */
+}
+.HelpingIcon{
+    font-size: 40px;
+    color: #EB3349;
+    /* margin: auto; */
+    /* margin: 50%; */
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+
+.HelpingCustomerInside2{
+    padding: 44px;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.HelpingTitle{
+    text-align: center;
+    font-size: 42px;
+    color: #EB3349;
+
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.HelpingSell{
+    display: flex;
 }
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.HelpingSellImg{
+    width: 272px;
+    height: 210px;
 }
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.HelpingSellButton{
+    border: none;
+    color: white;
+    background-color: #24A1FD;
+    border-radius: 50px;
+    width: 210px;
+    height: 42px;
+    text-align: center;
+    font-size: 20px;
+    margin: 24px;
 }
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.FaqIcon, .CallIcon{
+  margin-right: 40px;
 }

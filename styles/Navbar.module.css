@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.SearchNav{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 2%;
+    border: 1px solid #08376B;
+    border-radius: 30px;
+}
+.Login{
+    display: flex;
+    margin-left: 3%;
+}
+.btnLogIn{
+    width: 131px;
+    height: 49px;
+    text-align: center;
+    border: none;
+    background-color: #24A1FD;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+}
+.Search{
+    border-radius: 30px;
+    border-color: white;
+    width: 332px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}

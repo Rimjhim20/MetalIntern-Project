@@ -1,6 +1,7 @@
 import React from 'react'
 import homeCss from '../styles/Home.module.css'
 import metal from '../public/metal.png'
+import Navbar from '../components/Navbar'
 const Home = () => {
     return (
         <>

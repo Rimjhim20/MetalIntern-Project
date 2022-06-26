@@ -1,56 +1,98 @@
 import React from 'react'
-import Image from 'next/image'
 import Bar from "../components/bar"
+import Pic from "../components/Image"
+import Card from "../components/ProductCard"
+import cardCss from '../styles/Card.module.css'
+import productCss from '../styles/Product.module.css'
+import catcss from "../styles/CategoryBar.module.css"
+import Image from 'next/image'
 const product = () => {
   return (
     <>
-    <Bar/>
-    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <Image src="/metal.png" class="d-block w-100" alt="steel" width={400}
-            height={200} />
-        </div>
-        <div className="carousel-item">
-          <Image src="/metal1.jpeg" class="d-block w-100" alt="steel"
-            width={400}
-            height={200} />
-        </div>
-        <div className="carousel-item">
-          <Image src="/metal2.jpg" class="d-block w-100" alt="steel" width={400}
-            height={200} />
+     <div className={catcss.categorybar}>
+        <Bar />
+        <div className={cardCss.icons}>
+          <a href="/wishlist"><i className="fa-regular fa-heart wishhover "></i><br />Wishlist &nbsp;</a>
+          <a href="#"><i className="bi bi-cart" /><br />Cart</a>
         </div>
       </div>
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
-    
-    <div className='textp'>
-        <h2>Aluminium Scrap</h2>
-        <p>Recycled Aluminium scrap from blast furnace.</p>
-      
-          <li className="ton">1 Ton (Min Order)</li>
+      <ul className={cardCss.cards}>
+        <li className={cardCss.cards_item}>
+          <div className={cardCss.card}>
+            <div className="crouselcol">
+              <div id="carouselExampleControls" className="carousel slide " data-bs-ride="carousel">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <Image src="/metal.png" class="d-block w-100" alt="steel" width={900}
+                      height={500} />
+                  </div>
+                  <div className="carousel-item">
+                    <Image src="/metal1.jpeg" class="d-block w-100" alt="steel"
+                      width={900}
+                      height={500} />
+                  </div>
+                  <div className="carousel-item">
+                    <Image src="/metal2.jpg" class="d-block w-100" alt="steel" width={900}
+                      height={500} />
+                  </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div className="container">
+                <Pic />
+                <Pic />
+                <Pic />
+                <Pic />
+                <Pic />
+                <Pic />
+                <Pic />
+                <Pic />
+                <Pic />
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className={cardCss.cards_item}>
+          <div className={cardCss.card}>
+            <div className={cardCss.card_content}>
+              <div className={productCss.display}>
+                <h2 className={cardCss.card_title}>Aluminium Scrap</h2>
+                <i className="fa-solid fa-heart redcolor"></i>
+              </div>
+              <p className="card_text">Recycled Aluminium scrap from blast furnace.</p>
+              <span className="ton">1 Ton (Min Order)</span>
+              <p>Measurement <br />
+                &emsp;
+                Length:10 meters
+                <br />
+                &emsp;
+                Diameters:10 meters
+              </p>
+              <p><i className="fa-solid fa-check"></i>Deliverrable to your location </p>
+              <span className={productCss.pricep}>₹1,39,999</span><br />
+              <button className={productCss.button}><i className="bi bi-cart"></i>Add to Cart</button>
+              <button className={productCss.button}>Buy Now</button>
+            </div>
+          </div>
+        </li>
+      </ul>
 
-          <p>Measurement</p>
-          <p>Length:10 meters</p>
-          <p>Diameters:10 meters</p>
-
-          <li className="pricep">₹1,39,999</li>
-         
-       
+      <div className={productCss.container}>
+        <h1 >Similar Product</h1>
+        <Card />
+        <br />
+        <h1 >Recently Viewed</h1>
+        <Card />
+        <br />
       </div>
-      <button className="button">Add to Cart</button>
-      <button className="button ">Buy Now</button>
-      </>
-
-      
-  
+    </>
   )
 }
 

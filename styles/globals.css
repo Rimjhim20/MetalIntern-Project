@@ -92,6 +92,11 @@ color: #EB3349 !important;
 .wishhover:hover{
   color: #EB3349
 }
+i.fa-ellipsis{
+  display: flex;
+  justify-content: center;
+  color: #8b8c8c;
+}
 
 
 

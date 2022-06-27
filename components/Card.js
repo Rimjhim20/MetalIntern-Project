@@ -16,7 +16,9 @@ const Card = () => {
                     4.9 <i className="bi bi-star-fill"></i> (1349)
                   </small>
                 </div>
+               
               </div>
+              <i className="fa-solid fa-ellipsis"></i>
               <div className={cardCss.Product_detail}>
                 <div className={cardCss.Product_Title}>
                   <h3>Aluminum Scrap</h3>
@@ -48,6 +50,7 @@ const Card = () => {
                   </small>
                 </div>
               </div>
+               <i className="fa-solid fa-ellipsis"></i>
               <div className={cardCss.Product_detail}>
                 <div className={cardCss.Product_Title}>
                   <h3>Aluminum Scrap</h3>
@@ -78,6 +81,7 @@ const Card = () => {
                   </small>
                 </div>
               </div>
+               <i className="fa-solid fa-ellipsis"></i>
               <div className={cardCss.Product_detail}>
                 <div className={cardCss.Product_Title}>
                   <h3>Aluminum Scrap</h3>

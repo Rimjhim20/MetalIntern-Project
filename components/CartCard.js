@@ -1,11 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import wishCss from '../styles/Wishlist.module.css'
 import productcardCss from '../styles/ProductCard.module.css'
 const Card = () => {
   return (
     <div>    
 <ul className={productcardCss.cards}>
-     <li className={productcardCss.cards_item}>
+<li className={productcardCss.cards_item}>
       <div className={productcardCss.card}>
       <div className={productcardCss.Product}>
                 <Image src="/metal.png" alt="steel" className={productcardCss.cardimg}
@@ -32,6 +34,10 @@ const Card = () => {
                     ₹ 1,39,999
                   </li>
                 </ul>
+                <button className={wishCss.button}>
+                <i className="bi bi-cart"></i>
+                <Link href="/cartpage"><a>Add to Cart</a></Link>
+              </button>
               </div>
       </div>
     </li>
@@ -62,6 +68,10 @@ const Card = () => {
                     ₹ 1,39,999
                   </li>
                 </ul>
+                <button className={wishCss.button}>
+                <i className="bi bi-cart"></i>
+                <Link href="/cartpage"><a>Add to Cart</a></Link>
+              </button>
               </div>
       </div>
     </li>
@@ -92,6 +102,10 @@ const Card = () => {
                     ₹ 1,39,999
                   </li>
                 </ul>
+                <button className={wishCss.button}>
+                <i className="bi bi-cart"></i>
+                <Link href="/cartpage"><a>Add to Cart</a></Link>
+              </button>
               </div>
       </div>
     </li>
@@ -122,6 +136,10 @@ const Card = () => {
                     ₹ 1,39,999
                   </li>
                 </ul>
+                <button className={wishCss.button}>
+                <i className="bi bi-cart"></i>
+                <Link href="/cartpage"><a>Add to Cart</a></Link>
+              </button>
               </div>
 
       </div>

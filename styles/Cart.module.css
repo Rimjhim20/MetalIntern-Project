@@ -1,0 +1,141 @@
+/* cart page */
+
+
+
+.project {
+	display: flex;
+  justify-content: space-between;
+}
+.shop {
+  width: 55rem;
+  margin-left: 8rem;
+}
+.box {
+	display: flex;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	background: #fff;
+	/* padding: 20px; */
+	transition: all .6s ease;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.content {
+  width: 100%;
+	position: relative;
+}
+.btn2{
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 22px;
+}
+
+.rightbar {
+  margin-right: 8rem;
+  margin-top: 4rem;
+	padding: 20px;
+	height: fit-content;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.rightbar hr {
+	margin-bottom: 25px;
+}
+.rightbar p {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.rightbar a {
+	background-color: #76bfb6;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-weight: 900;
+}
+.rightbar i {
+	margin-right: 15px;
+}
+.rightbar a:hover {
+	background-color: #3972a7;
+}
+@media screen and (max-width: 700px) {
+	.content h3 {
+		margin-bottom: 15px;
+	}
+	.content h4 {
+		margin-bottom: 20px;
+	}
+	.btn2 {
+		display: none;
+	}
+	.box {
+		height: 150px;
+	}
+	.box img {
+		height: 150px;
+		width: 200px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.project {
+		flex-direction: column;
+	}
+	.rightbar {
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 1250px) {
+	.wrapper {
+		max-width: 95%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #24A1FD;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+}  
+
+.display{
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom: 1rem;
+}
+
+.box{
+    border: 1px solid white;
+}
+
+.Title{
+    margin-left: 8rem;
+}
+.Card{
+    margin-left: 5rem;
+}

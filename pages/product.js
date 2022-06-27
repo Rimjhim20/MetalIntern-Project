@@ -12,14 +12,15 @@ const product = () => {
      <div className={catcss.categorybar}>
         <Bar />
         <div className={cardCss.icons}>
-          <a href="/wishlist"><i className="fa-regular fa-heart wishhover "></i><br />Wishlist &nbsp;</a>
-          <a href="#"><i className="bi bi-cart" /><br />Cart</a>
+          <a href="/wishlist"><i className="fa-regular fa-heart wishhover "></i>
+          <br />Wishlist &nbsp;</a>
+          <a href="/cartpage"><i className="bi bi-cart" /><br />Cart</a>
         </div>
       </div>
       <ul className={cardCss.cards}>
-        <li className={cardCss.cards_item}>
-          <div className={cardCss.card}>
-            <div className="crouselcol">
+        <li className={productCss.cards_item}>
+          <div className={productCss.card}>
+            <div className={productCss.crouselcol}>
               <div id="carouselExampleControls" className="carousel slide " data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
@@ -85,10 +86,10 @@ const product = () => {
       </ul>
 
       <div className={productCss.container}>
-        <h1 >Similar Product</h1>
+        <h1 className={productCss.Title}>Similar Product</h1>
         <Card />
         <br />
-        <h1 >Recently Viewed</h1>
+        <h1 className={productCss.Title} >Recently Viewed</h1>
         <Card />
         <br />
       </div>

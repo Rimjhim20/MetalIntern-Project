@@ -11,7 +11,7 @@ const Buy = () => {
         <Bar />
         <div className={cardCss.icons}>
           <a href="/wishlist"><i className="fa-regular fa-heart wishhover "></i><br />Wishlist &nbsp;</a>
-          <a href="#"><i className="bi bi-cart" /><br />Cart</a>
+          <a href="/cartpage"><i className="bi bi-cart" /><br />Cart</a>
         </div>
       </div>
       <div className={cardCss.display}>

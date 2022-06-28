@@ -25,7 +25,6 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.j
 <Script src="https://kit.fontawesome.com/389da53d03.js" crossorigin="anonymous"/>
 
       <Navbar />
-     {/* <Home/> */}
       <Component {...pageProps} />
       <Footer/>
     </>

@@ -1,0 +1,33 @@
+.card{
+    background-color: white;
+    border-radius: 0.25rem;
+  }
+  .cards {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+  }
+  
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+  

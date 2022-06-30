@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import productcardCss from '../styles/ProductCard.module.css'
+import cardCss from '../styles/Card.module.css'
 const Card = () => {
   return (
     <div>    

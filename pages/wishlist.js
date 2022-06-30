@@ -11,11 +11,19 @@ const wishlist = () => {
       <div className={catcss.categorybar}>
         <Bar />
         <div className={cardCss.icons}>
-          <a href="/wishlist"><i className="fa-solid fa-heart redcolor "></i><br />Wishlist &nbsp;</a>
-          <a href="#"><i className="bi bi-cart" /><br />Cart</a>
+          <Link href="/wishlist">
+          <a>
+            <i className="fa-solid fa-heart redcolor "></i>
+          <br />Wishlist &nbsp; </a>
+          </Link>
+          <Link href="/cartpage">
+            <a>
+            <i className="bi bi-cart" /><br />Cart
+            </a>
+            </Link>
         </div>
       </div>
-      <ul className={cardCss.cards}>
+      <ul className={wishCss.cards}>
         <li className={cardCss.cards_item}>
           <div className={cardCss.card}>
             <div className={cardCss.Product}>

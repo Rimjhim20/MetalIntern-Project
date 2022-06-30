@@ -1,10 +1,18 @@
+.card{
+  background-color: white;
+  border-radius: 0.25rem;
+}
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
 }
 .cards_item {
   display: flex;
@@ -16,20 +24,10 @@
     width: 50%;
   }
 }
-
 @media (min-width: 56rem) {
   .cards_item {
     width: 33.3333%;
   }
-}
-
-.card {
-  background-color: white;
-  border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
 }
 .Product{
   position: relative;
@@ -40,7 +38,7 @@
 .card_title {
   color: #24A1FD;
   font-size: 1.9rem;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0px;

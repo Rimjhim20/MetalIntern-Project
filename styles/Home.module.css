@@ -391,9 +391,8 @@
 }
 .HelpingCall, .HelpingFaq{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
   padding: 20px;
-  /* margin-left: 12%; */
 }
 .HelpingIcon{
     font-size: 40px;

@@ -1,34 +1,88 @@
 /* cart page */
 
-
-
+.producttitle{
+	color: #24A1FD;
+}
+.price{
+color: rgb(21, 206, 21);
+}
+.bold{
+	font-weight: bolder;
+}
 .project {
 	display: flex;
   justify-content: space-between;
 }
 .shop {
-  width: 55rem;
+  width: 45rem;
   margin-left: 8rem;
 }
 .box {
 	display: flex;
-	width: 100%;
-	height: 200px;
+	width: 90%;
+	height: 180px;
 	overflow: hidden;
 	margin-bottom: 20px;
 	background: #fff;
-	/* padding: 20px; */
 	transition: all .6s ease;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 6px 0px 0px 25px;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #24A1FD;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+}  
+.ton{
+	font-weight: bolder;
+}
+.btn{
+	color: rgb(9, 8, 8);
+	text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+	border: none;
+	background-color: #fff;
+}
+.display{
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom: 1rem;
+}
+.Title{
+    margin-left: 8rem;
+}
+.Card{
+    margin-left: 5rem;
+}
+.contain{
+	margin-left: 8rem;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
 }
 .content {
   width: 100%;
 	position: relative;
+	margin-left: 1rem;
 }
 .btn2{
 	background-color: white;
 	border: 1px solid black;
 	border-radius: 22px;
+	height: fit-content;
+	width: fit-content;
+	margin: 15px 20px 0px 0px;
 }
 
 .rightbar {
@@ -36,6 +90,7 @@
   margin-top: 4rem;
 	padding: 20px;
 	height: fit-content;
+	width: 30rem;
 	border-radius: 5px;
 	background: #fff;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -88,8 +143,9 @@
 		flex-direction: column;
 	}
 	.rightbar {
-		margin-left: 0;
-		margin-bottom: 20px;
+		margin-left: 8rem;
+		margin-bottom: 2rem;
+
 	}
 }
 @media screen and (max-width: 1250px) {
@@ -98,44 +154,8 @@
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.button{
-    border: none;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #24A1FD;
-    border-radius: 30px;
-    margin: auto;
-    display: flex;
-}  
-
-.display{
-    display: flex;
-    justify-content:space-between ;
-    margin-bottom: 1rem;
-}
-
-.box{
-    border: 1px solid white;
-}
-
-.Title{
-    margin-left: 8rem;
-}
-.Card{
-    margin-left: 5rem;
+.footer{
+text-align: center;
+color: #24A1FD;
+margin-bottom: 1rem;
 }

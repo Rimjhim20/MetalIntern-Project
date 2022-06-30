@@ -37,8 +37,10 @@ a {
   margin: 4px;
   padding: 4px;
 }
-
-
+p{
+  margin: 0px;
+  padding: 0px;
+}
 
 
 
@@ -97,6 +99,24 @@ i.fa-ellipsis{
   justify-content: center;
   color: #8b8c8c;
 }
+
+.goback{
+  margin-top: 0.5rem;
+  color: #24A1FD;
+}
+.location{
+  margin-top: 0.5rem;
+}
+table, th, td {
+  border: 1px solid rgb(197, 193, 193);
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px 0px 5px 20px;
+  text-align: left;
+}
+
+
 
 
 

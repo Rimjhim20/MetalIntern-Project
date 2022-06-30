@@ -6,8 +6,9 @@ const Footer = () => {
         <>
             <footer className={footCss.footer}>
                 <div className={footCss.footerHeader}>
-                    <img className={footCss.footerHeaderImage} src='/Metal_Station_Logo.png' alt="" />
-                    <p className={footCss.footerHeader}> <i class="fa-solid fa-star"></i> Trusted by 50,000+ customers</p>
+                    {/* <img className={footCss.footerHeaderImage}
+                     src='/Metal_Station_Logo.png' alt="" /> */}
+                    <p className={footCss.footerHeader}> <i className="fa-solid fa-star"></i> Trusted by 50,000+ customers</p>
                 </div>
                 <div className={footCss.footerInfo}>
                     <div className={footCss.footerBuy}>
@@ -43,16 +44,16 @@ const Footer = () => {
                     <div className={footCss.footerFollow}>
                         <h3 className={footCss.footerInfoHeader}>FOLLOW US ON</h3>
                         <div className={footCss.followIcon}>
-                        <i class="fa-brands fa-youtube mx-2 h4"></i>
-                        <i class="fa-brands fa-instagram-square mx-2 h4"></i>
-                        <i class="fa-brands fa-linkedin-in mx-2 h4"></i>
-                        <i class="fa-brands fa-twitter mx-2 h4"></i>
-                        <i class="fa-brands fa-facebook-f mx-2 h4"></i>
+                        <i className="fa-brands fa-youtube mx-2 h4"></i>
+                        <i className="fa-brands fa-instagram-square mx-2 h4"></i>
+                        <i className="fa-brands fa-linkedin-in mx-2 h4"></i>
+                        <i className="fa-brands fa-twitter mx-2 h4"></i>
+                        <i className="fa-brands fa-facebook-f mx-2 h4"></i>
                         </div>
                     </div>
                 </div>
                 <div className={footCss.footerLastText}>
-                    <p className={footCss.lastText}><i class="fa-solid fa-copyright"></i> All Rights Reserved @bismillaenterprises. Privacy, Terms of use, Security Overview</p>
+                    <p className={footCss.lastText}><i className="fa-solid fa-copyright"></i> All Rights Reserved @bismillaenterprises. Privacy, Terms of use, Security Overview</p>
                 </div>
             </footer>
         </>
